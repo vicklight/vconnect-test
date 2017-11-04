@@ -1,0 +1,65 @@
+body{
+    background-color: #cccccc;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color:#000000;  /*Sets the text hover color on navbar*/
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >
+a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: white; /*BACKGROUND color for active*/
+    background-color: #030033;
+}
+
+.navbar-default {
+    background-color:#ff8c00;
+    border-color: #ff8c00;
+    border-radius: 0;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    color: #262626;
+    text-decoration: none;
+    background-color: #66CCFF;  /*change color of links in drop down here*/
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    text-decoration: none;
+    background-color: white; /*Change rollover cell color here*/
+}
+
+
+.navbar-default .navbar-nav > li > a {
+    color: white; /*Change active text color here*/
+}
+.add-on .form-control:focus {
+    box-shadow:none;
+    -webkit-box-shadow:none;
+    border-color:#cccccc;
+}
+.form-control{
+    width:20%
+}
+
+.deals{
+    margin-top: 10px;
+    border-top: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    background-color: white;
+    padding: 6px;
+}
+.list{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    background-color: white;
+
+
+}
+.listcon{
+    margin-bottom: 10px;
+}
+
